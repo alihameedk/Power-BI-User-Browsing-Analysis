@@ -1,0 +1,62 @@
+
+# Users Browsing Data Analysis-Dashboard
+
+### Downloadable PDF Link : https://acrobat.adobe.com/id/urn:aaid:sc:AP:17f7bac4-d539-4eda-a095-f227a5c57fe0
+
+## Users Browsing Data Analysis
+
+### Data Ingestion:
+Loaded the CSV dataset including monthly aggregated user browser history for various web pages across regions, detailing operating systems, device types, number of visits, time spent per page, bounce rates, exit rates, and page value.
+### Data Modeling:
+Created star schema with dimensions for operating systems, device types and page statistics.
+### DAX measures:
+Calculated Month over month page visit growth, average session duration, percentage change and weighted average of bound and exit rate.
+### Visualizations:
+#### Line Charts:
+Time series of page visits. Bounce rate and exit rate by browser.
+
+#### Bar Charts:
+Users are spending most time on which pages (Average session duration by page type). Month over month page visit growth and percentage  change in page visits.
+#### Pie Charts:
+Which pages are being viewed the most.
+#### Insights:
+Identified most popular pages and trends by operating systems and device types across different regions.
+
+# User's Visits and Duration Snapshot (Power BI Service)
+
+
+
+![dashboard_snapo](https://private-user-images.githubusercontent.com/79145457/380505505-83dce198-5baf-4d36-9867-635be5c383c8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNDAxMDEsIm5iZiI6MTczMDAzOTgwMSwicGF0aCI6Ii83OTE0NTQ1Ny8zODA1MDU1MDUtODNkY2UxOTgtNWJhZi00ZDM2LTk4NjctNjM1YmU1YzM4M2M4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI3VDE0MzY0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU0YzdmZjFlMjE3MTk4NTZkOGEwNjNlZjBmZWViOTIxNGY3ZDY3YzFkNDVhYTRlYjBmMmZlZjJkZDAwOTM5YTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fN9HtAMTJmoydm0NSDdK6pEam88d7OnTLnuKHSX8Dgk)
+
+
+
+ 
+ # User's Region Wise Analysis Page (Power BI DESKTOP)
+
+
+
+ 
+![Dashboard_upload](https://private-user-images.githubusercontent.com/79145457/380505638-63b3dc10-eed9-4cb5-8b9d-180d789c46c9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNDAyMTMsIm5iZiI6MTczMDAzOTkxMywicGF0aCI6Ii83OTE0NTQ1Ny8zODA1MDU2MzgtNjNiM2RjMTAtZWVkOS00Y2I1LThiOWQtMTgwZDc4OWM0NmM5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI3VDE0MzgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiMTY1Y2NkODlmNjJlNTFjMTMzNzM2OThlODE3ODY3MTAyYmEyZjE1ZjUzNWZkZjRmYjMzMzA1NTg1OTBkMjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.lBVuYvgfkb3WVkRLdYgJtNC9Nlwu4VHBBdi4Qz55CeY)
+
+
+
+ # User's Bounce and Exit Rate Page:
+
+
+
+ 
+![Dashboard_upload](https://private-user-images.githubusercontent.com/79145457/380505774-88fba742-03df-453e-8bb8-a85e4df96d61.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNDAzMTMsIm5iZiI6MTczMDA0MDAxMywicGF0aCI6Ii83OTE0NTQ1Ny8zODA1MDU3NzQtODhmYmE3NDItMDNkZi00NTNlLThiYjgtYTg1ZTRkZjk2ZDYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI3VDE0NDAxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJmMDUwMDI2MmM3ZTA2MTZhZmE0NWE2YjZmMDg1Yjk4MWMxNmNlNmM4OWVhNTU3NzRkMzc3NGFhZTFjYTcyNGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.96KR6qGq2y3oY24GipUZWT0zjdC_gyhjsp6cOWRbquQ)
+
+
+
+ # User's Region Wise Ranking:
+
+
+
+ 
+![Dashboard_upload](https://private-user-images.githubusercontent.com/79145457/380505887-a824a671-a431-4210-af9b-58ee8f351f14.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNDA0MTUsIm5iZiI6MTczMDA0MDExNSwicGF0aCI6Ii83OTE0NTQ1Ny8zODA1MDU4ODctYTgyNGE2NzEtYTQzMS00MjEwLWFmOWItNThlZThmMzUxZjE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI3VDE0NDE1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2YTVkMGU2NDFmZjcxNTg5M2I2MjAxYTlkNzA3MzQwYjhkNWJlNDcwN2IyOGRkMmRlMjU0NWQzY2JiNWY2ZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mZfraLCIkCmgUh-80hcGWrsVb74HUg0QwLPSePE7FQY)
+
+
+
+# Users Browsing Data Analysis-Dashboard.md.txt
+Displaying # Users Browsing Data Analysis-Dashboard.md.txt
